@@ -14,6 +14,3 @@ export function returnDifference(x, y) {
 
   return difference;
 }
-
-returnDifference(3, 5);
-returnDifference(5, 3);
