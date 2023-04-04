@@ -9,25 +9,12 @@ Build a math helper utility that does the following:
 Import both functions into your App.js, and console.log the results.
 */
 
+import { returnSum, returnDifference } from "./util/mathFunctions";
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  console.log(returnSum(1, 2));
+  console.log(returnDifference(3, 5));
+  console.log(returnDifference(5, 3));
 }
 
 export default App;
